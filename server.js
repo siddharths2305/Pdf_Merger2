@@ -7,6 +7,7 @@ const {mergePdfs}  = require('./merge')
 
 const upload = multer({ dest: 'uploads/' })
 app.use('/static', express.static('public'))
+
 const port = 3000
 
 app.get('/', (req, res) => {
